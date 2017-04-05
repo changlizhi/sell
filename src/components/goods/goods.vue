@@ -17,7 +17,7 @@
         <li v-for="item in goods" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
-            <li v-for="food in item.foods" class="food-item borderbottom-1px">
+            <li @click="showFood(food,$event)" v-for="food in item.foods" class="food-item borderbottom-1px">
               <div class="icon">
                 <img width="57" height="57" :src="food.icon"></img>
               </div>
@@ -45,12 +45,13 @@
     <shopcart v-ref:shopcart :select-foods="selectFoods" :delivery-price="seller.deliveryPrice"
               :min-price="seller.minPrice"></shopcart>
   </div>
-
+  <food :food="selectedFood" v-ref:food></food>
 </template>
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
   import shopcart from 'components/shopcart/shopcart.vue';
   import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
+  import food from 'components/food/food.vue';
   const ERR_OK = 0;
 
   export default {
@@ -63,7 +64,8 @@
       return {
         goods: [],
         listHeight: [],
-        scrollY: 0
+        scrollY: 0,
+        selectedFood: {}
       };
     },
     computed: {
@@ -103,6 +105,13 @@
       });
     },
     methods: {
+      showFood(food, event) {
+        if (!event._constructed) {
+          return;
+        }
+        this.selectedFood = food;
+        this.$refs.food.show();
+      },
       selectMenu(index, event) {
         if (!event._constructed) {
           return;
@@ -112,7 +121,10 @@
         this.foodScrooll.scrollToElement(el, 300);
       },
       _drop(target) {
-        this.$refs.shopcart.drop(target);
+        // 为了优化体验效果，所以异步执行下落动画！
+        this.$nextTick(function () {
+          this.$refs.shopcart.drop(target);
+        });
       },
       _initScroll() {
         this.menuScroll = new BScroll(this.$els.menuWrapper, {
@@ -139,7 +151,8 @@
     },
     components: {
       shopcart,
-      cartcontrol
+      cartcontrol,
+      food
     },
     events: {
       'cart.add'(target) {

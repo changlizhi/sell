@@ -25,7 +25,7 @@
           Vue.set(this.food, 'count', 1);
           this.food.count = 1;
         } else {
-          this.food.count++;
+          this.food.count ++;
         }
         this.$dispatch('cart.add', event.target);
       },
@@ -34,7 +34,7 @@
           return;
         }
         if (this.food.count > 0) {
-          this.food.count--;
+          this.food.count --;
         }
       }
     }
