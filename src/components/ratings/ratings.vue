@@ -1,5 +1,5 @@
-<template>
-  <div class="ratings">
+<template xmlns:v-el="http://www.w3.org/1999/xhtml">
+  <div class="ratings" v-el:elratings>
     <div class="ratings-content">
       <div class="overview">
         <div class="overview-left">
@@ -30,7 +30,7 @@
         <ul>
           <li v-for="rating in ratings" class="rating-item">
             <div class="avatar">
-              <img :src="rating.avatar"/>
+              <img width="28" height="28" :src="rating.avatar"/>
             </div>
             <div class="content">
               <h1 class="name">{{rating.username}}</h1>
@@ -39,11 +39,11 @@
                 <span class="delivery" v-show="rating.deliveryTime"></span>
               </div>
               <p class="text">{{rating.text}}</p>
-              <div class="recommand" v-show="rating.recommand.length">
-                <span class="icon-thumb_up"></span>
-                <span v-for="item in rating.recommand"></span>
+              <div class="recommend" v-show="rating.recommend.length">
+                <i class="icon-thumb_up"></i>
+                <span v-for="item in rating.recommend">{{item}}</span>
               </div>
-              <div class="time"></div>
+              <div class="time">{{rating.rateTime | formatDate}}</div>
             </div>
           </li>
         </ul>
@@ -52,9 +52,11 @@
   </div>
 </template>
 <script type="text/ecmascript-6">
+  import {formatOne} from 'common/js/date.js';
   import star from 'components/star/star.vue';
   import split from 'components/split/split.vue';
   import ratingselect from 'components/ratingselect/ratingselect.vue';
+  import BScroll from 'better-scroll';
   const ALL = 2;
   const ERR_OK = 0;
   export default {
@@ -71,11 +73,25 @@
         onlyContent: true
       };
     },
+    filters: {
+      formatDate(time) {
+        return formatOne(new Date(time), 'yyyy-MM-dd hh:mm:ss');
+      }
+    },
     created() {
       this.$http.get('/api/ratings').then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
           this.ratings = response.data;
+          this.$nextTick(() => {
+            if (!this.scroll) {
+              this.scroll = new BScroll(this.$els.elratings, {
+                click: true
+              });
+            } else {
+              this.scroll.refresh();
+            }
+          });
         }
       });
     },
@@ -87,6 +103,7 @@
   };
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
+  @import "../../common/stylus/mixin.styl";
   .ratings
     position: absolute
     top: 174px
@@ -151,6 +168,13 @@
             margin-left: 12px
             font-size: 12px
             color: rgb(147, 153, 159)
+
+    .rating-wrapper
+      padding: 0 18px
+      .rating-item
+        display: flex
+        padding: 18px 0
+        borderbottom-1px(rgba(7, 17, 27, 0.1))
 
   .efsss
     flex: 1
