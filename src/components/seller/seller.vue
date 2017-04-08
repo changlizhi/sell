@@ -69,12 +69,17 @@
         this._initScroll();
       }
     },
+    ready() {
+      this._initScroll();
+    },
     methods: {
       _initScroll() {
         if (!this.scroll) {
           this.scroll = new BScroll(this.$els.seller, {
             click: true
           });
+        } else {
+          this.scroll.refresh();
         }
       }
     }
