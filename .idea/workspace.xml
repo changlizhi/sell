@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54781f90-41b5-454d-9bad-1dc563bced67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/decrease_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/decrease_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/discount_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/discount_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/guarantee_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/guarantee_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/invoice_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/invoice_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/special_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/special_4@3x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/seller/seller.vue" afterPath="$PROJECT_DIR$/src/components/seller/seller.vue" />
     </list>
@@ -42,28 +32,13 @@
       <file leaf-file-name="seller.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/seller/seller.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="229">
+              <caret line="223" column="17" lean-forward="false" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
               <folding>
-                <element signature="e#1718#1762#0" expanded="true" />
-                <element signature="e#2586#3659#0" expanded="false" />
-                <element signature="e#3866#4047#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ratings.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ratings/ratings.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-935">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#2272#2316#0" expanded="true" />
-                <element signature="e#4285#5871#0" expanded="false" />
-                <element signature="e#6965#7413#0" expanded="false" />
-                <marker date="1491557541961" expanded="false" signature="6402:6793" ph="{...}" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#2079#2123#0" expanded="true" />
+                <element signature="e#3651#4724#0" expanded="false" />
+                <element signature="e#4931#5112#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
       <find>decrease_</find>
       <find>bulletin</find>
       <find>classMap</find>
@@ -113,6 +87,7 @@
       <find>needShow</find>
       <find>borderbottom-1px</find>
       <find>content-wrapper</find>
+      <find>pics</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -143,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/common/stylus/index.styl" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/src/common/stylus/base.styl" />
         <option value="$PROJECT_DIR$/src/components/star/star.vue" />
         <option value="$PROJECT_DIR$/src/components/textinline/textinline.vue" />
@@ -160,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/common/js/date.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/ratings/ratings.vue" />
+        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/src/components/seller/seller.vue" />
       </list>
     </option>
@@ -177,8 +152,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="677" />
-    <option name="width" value="689" />
+    <option name="x" value="771" />
+    <option name="width" value="595" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -240,60 +215,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -310,19 +231,19 @@
     <property name="js.eslint.eslintPackage" value="D:\allworkspace\sell\node_modules\eslint" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="star&#9;FILE&#9;file://D:/allworkspace/sell/src/components/star/star.vue&#10;header&#9;FILE&#9;file://D:/allworkspace/sell/src/components/header/header.vue&#10;d&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;main&#9;FILE&#9;file://D:/allworkspace/sell/src/main.js&#10;app&#9;FILE&#9;file://D:/allworkspace/sell/src/App.vue&#10;f&#9;FILE&#9;file://D:/allworkspace/sell/src/components/food/food.vue&#10;data&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;icon&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/icon.styl&#10;da&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;food&#9;FILE&#9;file://D:/allworkspace/sell/src/components/food/food.vue&#10;good&#9;FILE&#9;file://D:/allworkspace/sell/src/components/goods/goods.vue&#10;cart&#9;FILE&#9;file://D:/allworkspace/sell/src/components/cartcontrol/cartcontrol.vue&#10;cartcontrol&#9;FILE&#9;file://D:/allworkspace/sell/src/components/cartcontrol/cartcontrol.vue&#10;goods&#9;FILE&#9;file://D:/allworkspace/sell/src/components/goods/goods.vue&#10;shop&#9;FILE&#9;file://D:/allworkspace/sell/src/components/shopcart/shopcart.vue&#10;app.v&#9;FILE&#9;file://D:/allworkspace/sell/src/App.vue&#10;data.&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;textin&#9;FILE&#9;file://D:/allworkspace/sell/src/components/textinline/textinline.vue&#10;base&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/base.styl&#10;mixi&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/mixin.styl&#10;base.conf.js&#9;FILE&#9;file://D:/allworkspace/sell/build/webpack.base.conf.js" />
+    <property name="SearchEverywhereHistoryKey" value="icon&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/icon.styl&#10;data&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;star&#9;FILE&#9;file://D:/allworkspace/sell/src/components/star/star.vue&#10;header&#9;FILE&#9;file://D:/allworkspace/sell/src/components/header/header.vue&#10;d&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;main&#9;FILE&#9;file://D:/allworkspace/sell/src/main.js&#10;app&#9;FILE&#9;file://D:/allworkspace/sell/src/App.vue&#10;f&#9;FILE&#9;file://D:/allworkspace/sell/src/components/food/food.vue&#10;da&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;food&#9;FILE&#9;file://D:/allworkspace/sell/src/components/food/food.vue&#10;good&#9;FILE&#9;file://D:/allworkspace/sell/src/components/goods/goods.vue&#10;cart&#9;FILE&#9;file://D:/allworkspace/sell/src/components/cartcontrol/cartcontrol.vue&#10;cartcontrol&#9;FILE&#9;file://D:/allworkspace/sell/src/components/cartcontrol/cartcontrol.vue&#10;goods&#9;FILE&#9;file://D:/allworkspace/sell/src/components/goods/goods.vue&#10;shop&#9;FILE&#9;file://D:/allworkspace/sell/src/components/shopcart/shopcart.vue&#10;app.v&#9;FILE&#9;file://D:/allworkspace/sell/src/App.vue&#10;data.&#9;FILE&#9;file://D:/allworkspace/sell/data.json&#10;textin&#9;FILE&#9;file://D:/allworkspace/sell/src/components/textinline/textinline.vue&#10;base&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/base.styl&#10;mixi&#9;FILE&#9;file://D:/allworkspace/sell/src/common/stylus/mixin.styl&#10;base.conf.js&#9;FILE&#9;file://D:/allworkspace/sell/build/webpack.base.conf.js" />
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\allworkspace\sell\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\allworkspace\sell\src\components\seller" />
       <recent name="D:\allworkspace\sell\src\components\goods" />
       <recent name="D:\allworkspace\sell\src\components\header" />
       <recent name="D:\allworkspace\sell\src\components\star" />
       <recent name="D:\allworkspace\sell\src\common\stylus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\allworkspace\sell\static\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -803,7 +724,10 @@
       <workItem from="1491446615832" duration="6732000" />
       <workItem from="1491490361351" duration="3683000" />
       <workItem from="1491528677353" duration="24826000" />
-      <workItem from="1491614060237" duration="3969000" />
+      <workItem from="1491614060237" duration="8659000" />
+      <workItem from="1491657246204" duration="107000" />
+      <workItem from="1491810874947" duration="746000" />
+      <workItem from="1491878851451" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1491186912025</created>
@@ -854,14 +778,28 @@
       <option name="project" value="LOCAL" />
       <updated>1491557648558</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="切换页面时BScroll重新渲染watch不会初始化">
+      <created>1491618084010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491618084010</updated>
+    </task>
+    <task id="LOCAL-00009" summary="优化watch再在放初始化，然后refresh">
+      <created>1491618312868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1491618312868</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130513000" />
+    <option name="totallyTimeSpent" value="136925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="677" y="0" width="689" height="728" extended-state="0" />
+    <frame x="771" y="0" width="595" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -873,13 +811,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26153848" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60504204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38991597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35771066" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3570521" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -917,10 +855,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60504204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38991597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35771066" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3570521" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28067228" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -958,7 +896,9 @@
     <MESSAGE value="评价单页" />
     <MESSAGE value="router.go提前做是有问题的，取消之后nextTick回复正常" />
     <MESSAGE value="评论组件结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="评论组件结束" />
+    <MESSAGE value="切换页面时BScroll重新渲染watch不会初始化" />
+    <MESSAGE value="优化watch再在放初始化，然后refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化watch再在放初始化，然后refresh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1143,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/better-scroll/src/bscroll/bscroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="854" column="2" lean-forward="false" selection-start-line="854" selection-start-column="2" selection-end-line="854" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/stylus/index.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1183,19 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#1014#1452#0" expanded="false" />
-            <element signature="e#1467#1863#0" expanded="false" />
-            <element signature="e#1879#2159#0" expanded="false" />
-            <element signature="e#2305#2961#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1238,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,14 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19227">
-          <caret line="1131" column="20" lean-forward="false" selection-start-line="1131" selection-start-column="20" selection-end-line="1131" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4454">
@@ -1291,40 +1202,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
+    <entry file="file://$PROJECT_DIR$/node_modules/better-scroll/src/bscroll/bscroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="143">
+          <caret line="738" column="2" lean-forward="false" selection-start-line="738" selection-start-column="2" selection-end-line="738" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ratings/ratings.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2272#2316#0" expanded="true" />
-            <element signature="e#4285#5871#0" expanded="false" />
-            <element signature="e#6965#7413#0" expanded="false" />
-            <marker date="1491557541961" expanded="false" signature="6402:6793" ph="{...}" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/seller/seller.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state relative-caret-position="229">
+          <caret line="223" column="17" lean-forward="false" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
           <folding>
-            <element signature="e#1718#1762#0" expanded="true" />
-            <element signature="e#2586#3659#0" expanded="false" />
-            <element signature="e#3866#4047#0" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2079#2123#0" expanded="true" />
+            <element signature="e#3651#4724#0" expanded="false" />
+            <element signature="e#4931#5112#0" expanded="false" />
           </folding>
         </state>
       </provider>
