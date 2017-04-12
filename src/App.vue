@@ -9,7 +9,7 @@
         <a v-link="{path:'/ratings'}">评论</a>
       </div>
       <div class="tab-item">
-        <a v-link="{path:'/seller'}">商家</a>
+        <a v-link="{path:'/seller?id=11112'}">商家</a>
       </div>
     </div>
     <router-view :seller="seller"></router-view>
@@ -18,13 +18,19 @@
 
 <script type="text/ecmascript-6">
   import header from 'components/header/header.vue';
-
+  import {urlparth} from 'common/js/util.js';
   const ERR_OK = 0;
 
   export default{
     data() {
       return {
-        seller: {}
+        seller: {
+          id: (() => {
+            let queryParam = urlparth();
+            console.log(queryParam);
+            return queryParam.id;
+          })()
+        }
       };
     },
     created() {
