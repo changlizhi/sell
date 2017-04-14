@@ -9,7 +9,7 @@
         <a v-link="{path:'/ratings'}">评论</a>
       </div>
       <div class="tab-item">
-        <a v-link="{path:'/seller?id=11112'}">商家</a>
+        <a v-link="{path:'/seller'}">商家</a>
       </div>
     </div>
     <router-view :seller="seller"></router-view>
@@ -27,18 +27,16 @@
         seller: {
           id: (() => {
             let queryParam = urlparth();
-            console.log(queryParam);
             return queryParam.id;
           })()
         }
       };
     },
     created() {
-      this.$http.get('/api/seller').then((response) => {
+      this.$http.get('/api/seller?id=').then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
-          this.seller = response.data;
-          // console.log(this.seller);
+          this.seller = Object.assign({}, this.seller, response.data);
         }
       });
     },
