@@ -52,7 +52,6 @@
   import shopcart from 'components/shopcart/shopcart.vue';
   import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
   import food from 'components/food/food.vue';
-  const ERR_OK = 0;
 
   export default {
     props: {
@@ -93,10 +92,11 @@
     },
     created() {
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
-      this.$http.get('/api/goods').then((response) => {
+      this.$http.get('/api/data').then((response) => {
         response = response.body;
-        if (response.errno === ERR_OK) {
-          this.goods = response.data;
+        response = JSON.parse(response);
+        if (response !== undefined) {
+          this.goods = response.goods;
           this.$nextTick(() => {
             this._initScroll();
             this._calculateHeight();

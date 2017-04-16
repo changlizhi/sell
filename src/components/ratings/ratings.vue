@@ -58,7 +58,6 @@
   import ratingselect from 'components/ratingselect/ratingselect.vue';
   import BScroll from 'better-scroll';
   const ALL = 2;
-  const ERR_OK = 0;
   export default {
     props: {
       seller: {
@@ -93,10 +92,11 @@
       }
     },
     created() {
-      this.$http.get('/api/ratings').then((response) => {
+      this.$http.get('/api/data').then((response) => {
         response = response.body;
-        if (response.errno === ERR_OK) {
-          this.ratings = response.data;
+        response = JSON.parse(response);
+        if (response !== undefined) {
+          this.ratings = response.ratings;
           this.$nextTick(() => {
             if (!this.scroll) {
               this.scroll = new BScroll(this.$els.elratings, {

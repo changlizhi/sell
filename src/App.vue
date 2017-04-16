@@ -19,7 +19,6 @@
 <script type="text/ecmascript-6">
   import header from 'components/header/header.vue';
   import {urlparth} from 'common/js/util.js';
-  const ERR_OK = 0;
 
   export default{
     data() {
@@ -33,10 +32,12 @@
       };
     },
     created() {
-      this.$http.get('/api/seller?id=').then((response) => {
+      this.$http.get('/api/data').then((response) => {
         response = response.body;
-        if (response.errno === ERR_OK) {
-          this.seller = Object.assign({}, this.seller, response.data);
+        response = JSON.parse(response);
+        console.log(response);
+        if (response !== undefined) {
+          this.seller = Object.assign({}, this.seller, response.seller);
         }
       });
     },
